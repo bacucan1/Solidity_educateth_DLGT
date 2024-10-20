@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nuevoSaludo",
+						"type": "string"
+					}
+				],
+				"name": "guardarSaludo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "leer_saludo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "saludo_estatico",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"hola_mundo_dinamico.sol": "hola_mundo_dinamico"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hola_mundo_dinamico.sol": {
+			"keccak256": "0xf4db5a7a31da30220185055465a96fe7d04bac77edbe0f0d9421a2c206436a97",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d960ebf471fff841871158a2239ae47bd5ae5ab1d1906c0c684ffd218b641c42",
+				"dweb:/ipfs/QmQBdMG4EaVfuyhrrydx7fqFp353nTbGwG5jo2KX8fRbMA"
+			]
+		}
+	},
+	"version": 1
+}
